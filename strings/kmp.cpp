@@ -2,9 +2,11 @@
 using namespace std;
 int main(){
     //s for source
-    string s="#babababab";
+    //string s="#babababab";
+    string s="#abababa";
     //p for pattern
-    string p="#abab";
+    //string p="#abab";
+    string p="#ababa";
     int M=s.size()-1;
     int N=p.size()-1;
     int next[N+1];
@@ -25,7 +27,7 @@ int main(){
             j++;
         if (j==N){
             cout<<"Found at:"<<i-N+1<<endl;
-            j=next[j];
+            //j=next[j];
         }
     }
     return 0;
