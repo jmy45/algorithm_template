@@ -1,11 +1,4 @@
-/*
-5
-I abc
-Q abc
-Q ab
-I ab
-Q ab
-*/
+//acw835
 //这个作为模板2吧，可能在使用时需要修改下。
 #include<bits/stdc++.h>
 using namespace std;
